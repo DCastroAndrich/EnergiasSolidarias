@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- FONTS MONTSERRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- ESTILOS CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <title>Energías Solidarias</title>
+
+</head>
+
+<body>
+
+
+    <!-- COMIENZO NAVBAR -->
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand navBar-logo " href="./index.html"><img src="./src/assets/logo-removebg-preview.png"
+                alt="logo"></a>
+        <div class="navBar-donar btnDonarWeb">
+            <a href="./src/pages/donar.html">DONAR</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navBarOrden" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="./src/pages/queHacemos.html">¿Qué hacemos?</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./src/pages/quienesSomos.html">¿Quiénes somos? <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./src/pages/comoParticipar.html">¿Cómo participar?</a>
+                </li>
+            </ul>
+            <div class="navBar-donar btnDonarMobile">
+                <a href="./src/pages/donar.html">DONAR</a>
+            </div>
+
+            <div class="navBar-redes">
+                <a href="https://www.linkedin.com/company/energiassolidarias/" target="_blank"><svg width="25"
+                        height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 12.5C0 5.59644 5.59644 0 12.5 0C19.4036 0 25 5.59644 25 12.5C25 19.4036 19.4036 25 12.5 25C5.59644 25 0 19.4036 0 12.5ZM6.40625 10.3906V18.75H9.0625V10.3906H6.40625ZM6.25 7.73438C6.25 8.59375 6.875 9.21875 7.73438 9.21875C8.59375 9.21875 9.21875 8.59375 9.21875 7.73438C9.21875 6.875 8.59375 6.25 7.73438 6.25C6.95313 6.25 6.25 6.875 6.25 7.73438ZM16.0938 18.75H18.5938V13.5938C18.5938 11.0156 17.0312 10.1562 15.5469 10.1562C14.2187 10.1562 13.2812 11.0156 13.0469 11.5625V10.3906H10.5469V18.75H13.2031V14.2969C13.2031 13.125 13.9844 12.5 14.7656 12.5C15.5469 12.5 16.0938 12.8906 16.0938 14.2187V18.75Z"
+                            fill="#008BC1" />
+                    </svg>
+                </a>
+                <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.95 12L10.8 10.2V13.8L13.95 12Z" fill="#008BC1" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM16.65 8.025C17.175 8.175 17.55 8.55 17.7 9.075C18 10.05 18 12 18 12C18 12 18 13.95 17.775 14.925C17.625 15.45 17.25 15.825 16.725 15.975C15.75 16.2 12 16.2 12 16.2C12 16.2 8.175 16.2 7.275 15.975C6.75 15.825 6.375 15.45 6.225 14.925C6 13.95 6 12 6 12C6 12 6 10.05 6.15 9.075C6.3 8.55 6.675 8.175 7.2 8.025C8.175 7.8 11.925 7.8 11.925 7.8C11.925 7.8 15.75 7.8 16.65 8.025Z"
+                            fill="#008BC1" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/energiassolidarias/" target="_blank">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 14.1C10.875 14.1 9.9 13.2 9.9 12C9.9 10.875 10.8 9.9 12 9.9C13.125 9.9 14.1 10.8 14.1 12C14.1 13.125 13.125 14.1 12 14.1Z"
+                            fill="#008BC1" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M14.55 6.9H9.45C8.85 6.975 8.55 7.05 8.325 7.125C8.025 7.2 7.8 7.35 7.575 7.575C7.39696 7.75304 7.31284 7.93108 7.21116 8.14628C7.18437 8.20299 7.15628 8.26244 7.125 8.325C7.1134 8.35981 7.1 8.39641 7.08564 8.43564C7.00718 8.65 6.9 8.94282 6.9 9.45V14.55C6.975 15.15 7.05 15.45 7.125 15.675C7.2 15.975 7.35 16.2 7.575 16.425C7.75304 16.603 7.93108 16.6872 8.14628 16.7888C8.20304 16.8157 8.26239 16.8437 8.325 16.875C8.35981 16.8866 8.39641 16.9 8.43564 16.9144C8.65 16.9928 8.94282 17.1 9.45 17.1H14.55C15.15 17.025 15.45 16.95 15.675 16.875C15.975 16.8 16.2 16.65 16.425 16.425C16.603 16.247 16.6872 16.0689 16.7888 15.8537C16.8156 15.797 16.8437 15.7376 16.875 15.675C16.8866 15.6402 16.9 15.6036 16.9144 15.5644C16.9928 15.35 17.1 15.0572 17.1 14.55V9.45C17.025 8.85 16.95 8.55 16.875 8.325C16.8 8.025 16.65 7.8 16.425 7.575C16.247 7.39696 16.0689 7.31284 15.8537 7.21116C15.797 7.18439 15.7375 7.15625 15.675 7.125C15.6402 7.1134 15.6036 7.1 15.5644 7.08564C15.35 7.00718 15.0572 6.9 14.55 6.9ZM12 8.775C10.2 8.775 8.775 10.2 8.775 12C8.775 13.8 10.2 15.225 12 15.225C13.8 15.225 15.225 13.8 15.225 12C15.225 10.2 13.8 8.775 12 8.775ZM16.05 8.7C16.05 9.11421 15.7142 9.45 15.3 9.45C14.8858 9.45 14.55 9.11421 14.55 8.7C14.55 8.28578 14.8858 7.95 15.3 7.95C15.7142 7.95 16.05 8.28578 16.05 8.7Z"
+                            fill="#008BC1" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM9.45 5.775H14.55C15.225 5.85 15.675 5.925 16.05 6.075C16.5 6.3 16.8 6.45 17.175 6.825C17.55 7.2 17.775 7.575 17.925 7.95C18.075 8.325 18.225 8.775 18.225 9.45V14.55C18.15 15.225 18.075 15.675 17.925 16.05C17.7 16.5 17.55 16.8 17.175 17.175C16.8 17.55 16.425 17.775 16.05 17.925C15.675 18.075 15.225 18.225 14.55 18.225H9.45C8.775 18.15 8.325 18.075 7.95 17.925C7.5 17.7 7.2 17.55 6.825 17.175C6.45 16.8 6.225 16.425 6.075 16.05C5.925 15.675 5.775 15.225 5.775 14.55V9.45C5.85 8.775 5.925 8.325 6.075 7.95C6.3 7.5 6.45 7.2 6.825 6.825C7.2 6.45 7.575 6.225 7.95 6.075C8.325 5.925 8.775 5.775 9.45 5.775Z"
+                            fill="#008BC1" />
+                    </svg>
+
+                </a>
+                <a href="https://www.facebook.com/energiasolidarias" target="_blank">
+                    <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 12C0 5.37258 5.14873 0 11.5 0C17.8513 0 23 5.37258 23 12C23 18.6274 17.8513 24 11.5 24C5.14873 24 0 18.6274 0 12ZM11.5 6C14.6625 6 17.25 8.7 17.25 12C17.25 15 15.1656 17.55 12.2906 18V13.725H13.6562L13.9437 12H12.3625V10.875C12.3625 10.425 12.5781 9.975 13.2969 9.975H14.0156V8.475C14.0156 8.475 13.3688 8.325 12.7219 8.325C11.4281 8.325 10.5656 9.15 10.5656 10.65V12H9.12812V13.725H10.5656V17.925C7.83437 17.475 5.75 15 5.75 12C5.75 8.7 8.3375 6 11.5 6Z"
+                            fill="#008BC1" />
+                    </svg>
+            </div>
+            </a>
+        </div>
+    </nav>
+
+
+    <!-- FIN NAVBAR -->
+    <main class="container-fluid">
+
+        <!-- HEADER HOME-->
+        <header id="home-header">
+            <div class="home-header-titular">
+
+                <h1>Energías renovables al alcance de las comunidades</h1>
+            </div>
+            <img class="flor-1" src="./src/assets/figures/2.png" alt="flor">
+            <img class="flor-2" src="./src/assets/figures/2.png" alt="flor">
+            <img class="flor-3" src="./src/assets/figures/2.png" alt="flor">
+
+            <div class="home-header-textos">
+                <div class="header-textos">
+                    <p>Somos una organización sin fines de lucro que promueve el <b>desarrollo sostenible</b> en
+                        <b>comunidades vulnerables y/o rurales</b>. A través de proyectos alineados con los objetivos de
+                        desarrollo sostenible (ODS). Impulsando el <b>acceso a las energías renovables</b>, conceptos y
+                        metodologías de economía circular.</p>
+
+                </div>
+
+
+            </div>
+
+
+        </header>
+
+        <!-- FIN HEADER -->
+
+        <!-- SECCION FOTOS -->
+        <section id="section1">
+            <div class="home-section-sumate">
+                <div class="section-titular">
+
+                    <h1>Sumate al equipo</h1>
+                </div>
+                <div class="section-participar">
+                    <a href="./src/pages/comoParticipar.html" target="_blank">Quiero participar</a>
+                </div>
+            </div>
+            <div class="section-pic1">
+
+                <img src="./src/assets/pictures/IMG_3371.jpg" alt="imagen de trabajo">
+            </div>
+        </section>
+
+
+        <section id="section2">
+            <div class="section-pic2">
+                <img src="./src/assets/pictures/energias solidarias fotos.jpg" alt="conocenos mejor">
+            </div>
+            <div class="section2-titulos">
+                <h3>CONOCÉ MEJOR LO QUE HACEMOS</h3>
+                <p>Promovemos proyectos sostenibles en diversas comunidades para mejorar su calidad de vida. A través
+                    del uso de materiales reutilizados se construyen dispositivos que aprovechan la radiación solar.</p>
+            </div>
+
+        </section>
+
+
+        <section id="section3">
+            <div class="section-pic3">
+                <img src="./src/assets/pictures/IMG_5469.jpg" alt="ayudanos a ayudar">
+            </div>
+            <img class="garabato" src="./src/assets/figures/5j.png" alt="garabato">
+            <div class="home-section-ayudar">
+                <div class="section-titular2">
+                    <h1>Ayudanos a ayudar</h1>
+                    <div class="section-donar">
+                        <a href="./src/pages/donar.html" target="_blank">Quiero donar</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FIN SECCION FOTOS -->
+
+        <!-- COMIENZO SECCION ALCANCE -->
+        <section id="section4">
+
+            <div class="section4-container">
+                <div class="section4-titular">
+
+                    <h3>ALCANCE REGIONAL</h3>
+                </div>
+                <div class="section4-datos">
+                    <div class="section4-textos">
+                        <h1>+100</h1>
+                        <p>familias beneficiadas</p>
+                    </div>
+                    <div class="section4-textos">
+                        <h1>+50</h1>
+                        <p>talleres realizados</p>
+
+                    </div>
+                    <div class="section4-textos">
+                        <h1>+200</h1>
+                        <p>voluntarios externos vinculados</p>
+                    </div>
+                    <div class="section4-textos">
+                        <h1>+500</h1>
+                        <p>voluntarios internos vinculados</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- FIN SECCION ALCANCE -->
+
+        <!-- COMIENZO SECCION TESTIMONIOS -->
+
+        <section id="section5">
+
+            <div class="section5-container">
+                <div class="section5-titular">
+                    <h4>CONOCÉ LA EXPERIENCIA DE NUESTROS VOLUNTARIOS</h4>
+                </div>
+                <div class="section5-testimonios">
+                    <div class="voluntarios">
+                        <img src="./src/assets/pictures/Ricardo Velásquez.jpg" alt="voluntario uno">
+                        <p>“Formar parte del equipo ES me genera gran satisfacción personal y profesional, ya que puedo
+                            aportar a causas sociales y ambientales mediante proyectos comunitarios...” </p>
+                    </div>
+                    <div class="voluntarios">
+                        <img src="./src/assets/pictures/Mariana Eva Cruz.jpg" alt="voluntario dos">
+                        <p>“... Salí de mi zona de confort para trabajar con un equipo interdisciplinario por un mismo
+                            objetivo...Cada rol y acción es fundamental, y eso me hace sentir parte del cambio.”</p>
+                    </div>
+                    <div class="voluntarios">
+                        <img src="./src/assets/pictures/Luciana WIlhelm opcion 2.png" alt="voluntario tres">
+                        <p>“...Sin dudas es unas de las mejores experiencias que tuve en mi vida, el amor que le ponen
+                            todos los que participan y los vínculos hermosos que generamos me llena de felicidad...”</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- FIN SECCION TESTIMONIOS -->
+
+
+
+    </main>
+
+
+
+
+
+
+
+    <!-- COMIENZO FOOTER -->
+
+
+    <footer id="footer">
+        <div class="footer-logo"><img src="./src/assets/logo2-removebg-preview.png" alt="Logo color blanco"></div>
+        <div class="footer-copyright">
+
+            <p>
+                © Energias solidarias. Todos los derechos protegidos. - Política de Privacidad
+            </p>
+        </div>
+        <div class="footer-redes">
+            <p>SEGUINOS EN</p>
+
+            <div class="footer-redes-iconos">
+
+                <a href="https://www.linkedin.com/company/energiassolidarias/" target="_blank"><svg width="40"
+                        height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 20.4651C0 9.41939 8.95431 0.465088 20 0.465088C31.0457 0.465088 40 9.41939 40 20.4651C40 31.5108 31.0457 40.4651 20 40.4651C8.95431 40.4651 0 31.5108 0 20.4651ZM10.25 17.0901V30.4651H14.5V17.0901H10.25ZM10 12.8401C10 14.2151 11 15.2151 12.375 15.2151C13.75 15.2151 14.75 14.2151 14.75 12.8401C14.75 11.4651 13.75 10.4651 12.375 10.4651C11.125 10.4651 10 11.4651 10 12.8401ZM25.75 30.4651H29.75V22.2151C29.75 18.0901 27.25 16.7151 24.875 16.7151C22.75 16.7151 21.25 18.0901 20.875 18.9651V17.0901H16.875V30.4651H21.125V23.3401C21.125 21.4651 22.375 20.4651 23.625 20.4651C24.875 20.4651 25.75 21.0901 25.75 23.2151V30.4651Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                <a href="#"><svg width="40" height="41" viewBox="0 0 40 41" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.25 20.7268L18 17.7268V23.7268L23.25 20.7268Z" fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 20.7268C0 9.68111 8.95431 0.726807 20 0.726807C31.0457 0.726807 40 9.68111 40 20.7268C40 31.7725 31.0457 40.7268 20 40.7268C8.95431 40.7268 0 31.7725 0 20.7268ZM27.75 14.1018C28.625 14.3518 29.25 14.9768 29.5 15.8518C30 17.4768 30 20.7268 30 20.7268C30 20.7268 30 23.9768 29.625 25.6018C29.375 26.4768 28.75 27.1018 27.875 27.3518C26.25 27.7268 20 27.7268 20 27.7268C20 27.7268 13.625 27.7268 12.125 27.3518C11.25 27.1018 10.625 26.4768 10.375 25.6018C10 23.9768 10 20.7268 10 20.7268C10 20.7268 10 17.4768 10.25 15.8518C10.5 14.9768 11.125 14.3518 12 14.1018C13.625 13.7268 19.875 13.7268 19.875 13.7268C19.875 13.7268 26.25 13.7268 27.75 14.1018Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/energiassolidarias/" target="_blank"><svg width="40" height="41"
+                        viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 24.2268C18.125 24.2268 16.5 22.7268 16.5 20.7268C16.5 18.8518 18 17.2268 20 17.2268C21.875 17.2268 23.5 18.7268 23.5 20.7268C23.5 22.6018 21.875 24.2268 20 24.2268Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M24.25 12.2268H15.75C14.75 12.3518 14.25 12.4768 13.875 12.6018C13.375 12.7268 13 12.9768 12.625 13.3518C12.3283 13.6485 12.1881 13.9453 12.0186 14.3039C11.9739 14.3985 11.9271 14.4975 11.875 14.6018C11.8557 14.6598 11.8333 14.7208 11.8094 14.7862C11.6786 15.1435 11.5 15.6315 11.5 16.4768V24.9768C11.625 25.9768 11.75 26.4768 11.875 26.8518C12 27.3518 12.25 27.7268 12.625 28.1018C12.9217 28.3985 13.2185 28.5387 13.5771 28.7082C13.6717 28.7529 13.7706 28.7996 13.875 28.8518C13.933 28.8711 13.994 28.8935 14.0594 28.9174C14.4167 29.0482 14.9047 29.2268 15.75 29.2268H24.25C25.25 29.1018 25.75 28.9768 26.125 28.8518C26.625 28.7268 27 28.4768 27.375 28.1018C27.6717 27.8051 27.8119 27.5083 27.9814 27.1497C28.0261 27.0551 28.0728 26.9561 28.125 26.8518C28.1443 26.7938 28.1667 26.7328 28.1906 26.6674C28.3214 26.3101 28.5 25.8221 28.5 24.9768V16.4768C28.375 15.4768 28.25 14.9768 28.125 14.6018C28 14.1018 27.75 13.7268 27.375 13.3518C27.0783 13.0551 26.7815 12.9149 26.4229 12.7454C26.3284 12.7008 26.2292 12.6539 26.125 12.6018C26.067 12.5825 26.006 12.5601 25.9406 12.5362C25.5833 12.4054 25.0953 12.2268 24.25 12.2268ZM20 15.3518C17 15.3518 14.625 17.7268 14.625 20.7268C14.625 23.7268 17 26.1018 20 26.1018C23 26.1018 25.375 23.7268 25.375 20.7268C25.375 17.7268 23 15.3518 20 15.3518ZM26.75 15.2268C26.75 15.9172 26.1904 16.4768 25.5 16.4768C24.8096 16.4768 24.25 15.9172 24.25 15.2268C24.25 14.5364 24.8096 13.9768 25.5 13.9768C26.1904 13.9768 26.75 14.5364 26.75 15.2268Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 20.7268C0 9.68111 8.95431 0.726807 20 0.726807C31.0457 0.726807 40 9.68111 40 20.7268C40 31.7725 31.0457 40.7268 20 40.7268C8.95431 40.7268 0 31.7725 0 20.7268ZM15.75 10.3518H24.25C25.375 10.4768 26.125 10.6018 26.75 10.8518C27.5 11.2268 28 11.4768 28.625 12.1018C29.25 12.7268 29.625 13.3518 29.875 13.9768C30.125 14.6018 30.375 15.3518 30.375 16.4768V24.9768C30.25 26.1018 30.125 26.8518 29.875 27.4768C29.5 28.2268 29.25 28.7268 28.625 29.3518C28 29.9768 27.375 30.3518 26.75 30.6018C26.125 30.8518 25.375 31.1018 24.25 31.1018H15.75C14.625 30.9768 13.875 30.8518 13.25 30.6018C12.5 30.2268 12 29.9768 11.375 29.3518C10.75 28.7268 10.375 28.1018 10.125 27.4768C9.875 26.8518 9.625 26.1018 9.625 24.9768V16.4768C9.75 15.3518 9.875 14.6018 10.125 13.9768C10.5 13.2268 10.75 12.7268 11.375 12.1018C12 11.4768 12.625 11.1018 13.25 10.8518C13.875 10.6018 14.625 10.3518 15.75 10.3518Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/energiasolidarias" target="_blank"><svg width="40" height="41"
+                        viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 20.7268C0 9.68111 8.95431 0.726807 20 0.726807C31.0457 0.726807 40 9.68111 40 20.7268C40 31.7725 31.0457 40.7268 20 40.7268C8.95431 40.7268 0 31.7725 0 20.7268ZM20 10.7268C25.5 10.7268 30 15.2268 30 20.7268C30 25.7268 26.375 29.9768 21.375 30.7268V23.6018H23.75L24.25 20.7268H21.5V18.8518C21.5 18.1018 21.875 17.3518 23.125 17.3518H24.375V14.8518C24.375 14.8518 23.25 14.6018 22.125 14.6018C19.875 14.6018 18.375 15.9768 18.375 18.4768V20.7268H15.875V23.6018H18.375V30.6018C13.625 29.8518 10 25.7268 10 20.7268C10 15.2268 14.5 10.7268 20 10.7268Z"
+                            fill="white" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- FIN FOOTER -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
