@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 :root {
@@ -13,7 +13,7 @@
 }
 
 body {
-  max-width: 100%;
+  max-width: 100vw;
   height: auto;
 }
 main {
@@ -374,7 +374,7 @@ main {
   position: absolute;
   width: 418px;
   height: 79px;
-  left: 839px;
+  right: 0;
   top: 1789px;
 }
 .section2-titulos h3 {
@@ -468,7 +468,7 @@ main {
 
 /* SECCION 4 */
 #section4 {
-  width: 1440px;
+  width: 100%;
 }
 
 .section4-container {
@@ -534,7 +534,7 @@ main {
 /* VOLUNTARIOS */
 
 #section5 {
-  width: 1440px;
+  width: 100%;
 }
 .section5-container {
   position: absolute;
@@ -674,7 +674,7 @@ main {
 }
 
 #footer-participar {
-   position: absolute;
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -1047,7 +1047,6 @@ p {
   justify-content: space-around;
   margin-top: 5%;
 }
-
 
 #footerQuienesSomos {
   position: absolute;
@@ -1684,4 +1683,324 @@ p {
   #footer-participar {
     width: 100%;
   }
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .home-header-titular h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 78px;
+    color: var(--color-blanco);
+  }
+  .header-textos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 266px;
+  }
+
+  .header-textos p {
+    width: 90%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 24px;
+    color: #454a4d;
+  }
+
+  .section-titular {
+    position: absolute;
+    width: 241px;
+    height: 177px;
+    left: 94px;
+  }
+
+  .section-titular h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 59px;
+    color: var(--color-blanco);
+  }
+
+  .section-pic2 {
+    position: absolute;
+    width: 66%;
+    height: 397px;
+    left: 0;
+    top: 1681px;
+  }
+  .section2-titulos {
+    position: absolute;
+    width: 30%;
+    height: 79px;
+    right: 0;
+    top: 1789px;
+  }
+
+  .garabato {
+    position: absolute;
+    width: 284px;
+    height: 65px;
+    left: 598px;
+    top: 2241px;
+    z-index: 10;
+  }
+
+  .section5-titular {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+  }
+
+  .voluntarios p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 20px;
+    color: var(--color-gris);
+  }
+
+  #footer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 252px;
+    background-image: url(../assets/bg/wave-haikei.svg);
+    background-size: cover;
+    top: 3725px;
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 768px) {
+  #home-header {
+    position: absolute;
+    width: 100%;
+    height: 999px;
+    margin-top: 1%;
+    background-image: url(../assets/pictures/headerHome.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .home-header-titular {
+    position: absolute;
+    width: 470px;
+    height: 390px;
+    left: 36px;
+    top: 292px;
+  }
+
+  .flor-1 {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    left: 78px;
+    top: 725px;
+    z-index: 9;
+  }
+  .flor-2 {
+    position: absolute;
+    width: 78px;
+    height: auto;
+    left: 239px;
+    top: 793px;
+    z-index: 9;
+  }
+  .flor-3 {
+    position: absolute;
+    width: 64px;
+    height: auto;
+    left: 426px;
+    top: 778px;
+    z-index: 9;
+  }
+
+  .home-section-sumate {
+    position: absolute;
+    display: flex;
+    width: 41%;
+    height: 214px;
+    left: -2px;
+    top: 1152px;
+    background-color: var(--color-naranja);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+  }
+
+  .section-titular {
+    position: absolute;
+    width: 200px;
+    height: 177px;
+    left: 65px;
+  }
+
+  .section-titular h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 57px;
+    color: var(--color-blanco);
+  }
+
+  .section-participar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 31px 51px;
+    border-radius: 16px;
+    background-color: var(--color-blanco);
+    position: relative;
+    width: 235px;
+    height: 48px;
+    top: 64px;
+  }
+
+  .section-pic2 {
+    position: absolute;
+    width: 66%;
+    height: 397px;
+    left: 0;
+    top: 1490px;
+  }
+
+  .section2-titulos {
+    position: absolute;
+    width: 30%;
+    height: 79px;
+    right: 0;
+    top: 1461px;
+  }
+
+  .section-pic3 {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    top: 1937px;
+  }
+  .garabato {
+    position: absolute;
+    width: 284px;
+    height: 65px;
+    left: 470px;
+    top: 1979px;
+    z-index: 10;
+  }
+
+  .home-section-ayudar {
+    position: absolute;
+    display: flex;
+    width: 41%;
+    height: 286px;
+    right: 0;
+    top: 1979px;
+    background-color: var(--color-naranja);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+  }
+  .section-titular2 h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 57px;
+    color: var(--color-blanco);
+  }
+
+  .section-donar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 34px 51px;
+    border-radius: 16px;
+    background-color: var(--color-blanco);
+    position: relative;
+    width: 266px;
+    height: 48px;
+  }
+
+  .section4-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 560px;
+    top: 2390px;
+    background-image: url(../assets/pictures/alcanceRegionalHome.jpg);
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+  }
+  .section4-titular h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 289.9%;
+    color: var(--color-gris);
+  }
+
+  .section4-textos {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .section4-datos h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 78px;
+    color: var(--color-gris);
+  }
+  
+  .section4-datos p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 35px;
+    color: var(--color-gris);
+  }
+  .section5-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 2976px;
+  }
+  
+  #footer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 252px;
+    background-image: url(../assets/bg/wave-haikei.svg);
+    background-size: cover;
+    top: 3380px;
+    align-items: flex-end;
+  }
+
+
+
 }
