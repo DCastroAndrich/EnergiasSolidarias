@@ -1057,7 +1057,7 @@ p {
   height: 252px;
   background-image: url(../assets/bg/wave-haikei.svg);
   background-size: cover;
-  top: 2910px;
+  top: 2380px;
   align-items: flex-end;
 }
 .tituloDiv {
@@ -1178,7 +1178,7 @@ p {
 /*           MOBILE            */
 /* --------------------------------------------------- */
 @media (max-width: 576px) {
-  main {
+  /*  main {
     position: unset;
   }
   body {
@@ -1215,9 +1215,9 @@ p {
   }
   .nav-item a :hover {
     background-color: lightblue;
-  }
+  } */
   /*---que hacemos*/
-  #hacemos-header {
+  /*  #hacemos-header {
     width: 100%;
     height: 88vh;
   }
@@ -1278,18 +1278,18 @@ p {
   }
   .card-body {
     padding: 0px !important;
-  }
+  } */
   /**--footer--**/
-  #footerQueHacemos {
+  /* #footerQueHacemos {
     width: auto;
-  }
+  } */
   /*  .footer-logo {
     width: 30%;
     height: 10vh;
     left: 0px;
     background-repeat: no-repeat;
   } */
-  .footer-copyrightMobile {
+  /* .footer-copyrightMobile {
     position: relative;
     width: 100%;
     height: 48px;
@@ -1325,10 +1325,10 @@ p {
   }
   .footer-redes-iconos {
     height: 20px;
-  }
+  } */
 
   /** quienes somos **/
-  #somos-header {
+  /*  #somos-header {
     width: 100%;
     height: 88vh;
   }
@@ -1359,9 +1359,9 @@ p {
   }
   .divOperaciones {
     width: 100%;
-  }
+  } */
   /*Como participar*/
-  #participar-header {
+  /*  #participar-header {
     width: 100%;
     height: 98vh;
     background-repeat: no-repeat;
@@ -1397,9 +1397,9 @@ p {
   #footer-participar {
     width: 100%;
     top: 1800px;
-  }
+  } */
   /**Donar*/
-  #donar-header {
+  /*  #donar-header {
     width: 100%;
     height: 98vh;
   }
@@ -1423,9 +1423,9 @@ p {
   #footer-donar {
     width: 100%;
     top: 1300px;
-  }
+  } */
   /**home**/
-  /* #home-header {
+  /*   #home-header {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1483,7 +1483,7 @@ p {
     width: auto;
     height: auto;
   } */
-  .btnDonarMobile {
+  /* .btnDonarMobile {
     display: none;
   }
   .btnDonarWeb {
@@ -1513,9 +1513,9 @@ p {
   }
   .nav-item a :hover {
     background-color: lightblue;
-  }
+  } */
   /*Que hacemos*/
-  #hacemos-header {
+  /* #hacemos-header {
     width: 100%;
   }
   .hacemos-header-titular {
@@ -1563,7 +1563,7 @@ p {
   }
   #footerQueHacemos {
     width: auto;
-  }
+  } */
   /* .footer-logo {
     width: 20%;
     height: 8vh;
@@ -1585,9 +1585,9 @@ p {
     color: var(--color-blanco);
     text-align: center;
   } */
-  #footerQueHacemos {
+  /* #footerQueHacemos {
     flex-direction: column;
-  }
+  } */
   /*   .footerMobile {
     width: 100%;
     flex-direction: row;
@@ -1612,7 +1612,7 @@ p {
     display: none;
   } */
   /*quiens somos*/
-  #somos-header {
+  /* #somos-header {
     width: 100%;
   }
   .somos-header-titular {
@@ -1643,9 +1643,9 @@ p {
   }
   .tituloCarousel {
     margin-top: 2%;
-  }
+  } */
   /*donar*/
-  #donar-header {
+  /* #donar-header {
     width: 100%;
   }
   .donar-header-titular {
@@ -1660,9 +1660,9 @@ p {
   }
   #footer-donar {
     width: 100%;
-  }
+  } */
   /*como participar*/
-  #participar-header {
+  /* #participar-header {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1682,12 +1682,13 @@ p {
   }
   #footer-participar {
     width: 100%;
-  }
+  } */
 }
 
 /* RESPONSIVE */
 
 @media (max-width: 1024px) {
+  /* home */
   .home-header-titular h1 {
     font-style: normal;
     font-weight: 900;
@@ -1780,9 +1781,61 @@ p {
     top: 3725px;
     align-items: flex-end;
   }
+
+  /* que hacemos */
+  .iconoTitulo {
+    padding-top: 10px;
+    width: 10%;
+    height: fit-content;
+  }
+
+  .parrafo2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--color-blanco);
+    text-shadow: 1px 1px 4px var(--color-gris);
+  }
+
+  .infoImpacto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .circulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 33%;
+  }
+  .textoCirculoDiv {
+    background-image: url(../assets/bg/circulo.svg);
+    background-repeat: no-repeat;
+    height: 269px;
+    width: 100%;
+    background-position: center;
+  }
+
+  /* quienes somos */
+
+  #footerQuienesSomos {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 252px;
+    background-image: url(../assets/bg/wave-haikei.svg);
+    background-size: cover;
+    top: 2713px;
+    align-items: flex-end;
+  }
 }
 
 @media (max-width: 768px) {
+  /* home */
   #home-header {
     position: absolute;
     width: 100%;
@@ -2047,6 +2100,200 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+
+  /* que hacemos */
+
+  #hacemos-header {
+    width: 100%;
+    height: 700px;
+    margin-top: 1%;
+    background-image: url(../assets/pictures/energiasSolidariasFotos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hacemos-header-titular {
+    position: absolute;
+    width: 470px;
+    left: 36px;
+    top: 153px;
+  }
+  .hacemos-header-titular h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 78px;
+    color: var(--color-blanco);
+  }
+
+  .hacemos-header-textos {
+    position: absolute;
+    width: 100%;
+    height: 451px;
+    top: 264px;
+    background-image: url(../assets/bg/wave-header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #queHacemosDiv {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/bg/wave-hacemos.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    top: 601px;
+  }
+
+  #textoQueHacemos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 20px;
+  }
+
+  #queHacemos {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 44px;
+    color: var(--color-azul);
+  }
+
+  .parrafo1 {
+    margin-bottom: 32px;
+  }
+
+  #imgQueHacemos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+  }
+
+  .rulo {
+    width: 50%;
+    margin-top: 26.5%;
+    margin-left: 23%;
+  }
+
+  .imgQHacemos1 {
+    width: 100%;
+    position: absolute;
+    height: auto;
+    margin-top: 36.5%;
+  }
+
+  #impacto {
+    position: absolute;
+    top: 1282px;
+  }
+  .impactoTituloDiv {
+    margin: 0 auto;
+    margin-top: 8%;
+    width: 90%;
+    text-align: center;
+  }
+
+  #nuestrosProyectos {
+    background-color: var(--color-azul);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    position: absolute;
+    top: 1800px;
+  }
+
+  .imgProyectos {
+    width: 50%;
+  }
+
+  .imgNuestrosProyectos {
+    width: 81.3%;
+    margin-top: 0;
+  }
+
+  .cardsProyectos {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 2161px;
+  }
+
+  .cardsProyectos {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 2161px;
+    width: 100%;
+  }
+
+  .cards {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardText {
+    width: 100%;
+    text-align: center;
+  }
+
+  #footerQueHacemos {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 252px;
+    background-image: url(../assets/bg/wave-haikei.svg);
+    background-size: cover;
+    top: 2691px;
+    align-items: flex-end;
+  }
+
+  /* quienes somos */
+
+  .quienesSomos1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .tituloDiv {
+    width: 50%;
+  }
+
+  .divOperaciones {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+
+  #footerQuienesSomos {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 252px;
+    background-image: url(../assets/bg/wave-haikei.svg);
+    background-size: cover;
+    top: 2462px;
+    align-items: flex-end;
   }
 }
 
@@ -2398,7 +2645,7 @@ p {
     height: 210px;
     background-image: url(../assets/bg/wave-haikei.svg);
     background-size: cover;
-    top: 2100px;
+    top: 2144px;
     align-items: flex-end;
   }
 
@@ -2423,5 +2670,541 @@ p {
     overflow: hidden;
     vertical-align: middle;
     width: 20px;
+  }
+
+  /* que hacemos */
+
+  #hacemos-header {
+    width: 100%;
+    height: 700px;
+    margin-top: 1%;
+    background-image: url(../assets/pictures/energiasSolidariasFotos.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .hacemos-header-textos {
+    position: absolute;
+    width: 100%;
+    height: 451px;
+    top: 19px;
+    background-image: url(../assets/bg/wave-header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hacemos-header-titular {
+    position: absolute;
+    width: 100%;
+    height: 126px;
+    top: 11px;
+  }
+
+  .hacemos-header-titular h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 47px;
+    color: var(--color-blanco);
+  }
+
+  .hacemos-header-textos {
+    position: absolute;
+    width: 100%;
+    height: 303px;
+    top: 71px;
+    background-image: url(../assets/bg/wave-header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #queHacemosDiv {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/bg/wave-hacemos.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    top: 242px;
+  }
+
+  #textoQueHacemos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 14px;
+    text-align: justify;
+  }
+
+  #impacto {
+    position: absolute;
+    top: 799px;
+  }
+
+  #imgQueHacemos {
+    display: none;
+  }
+
+  #impacto {
+    position: absolute;
+    top: 830px;
+  }
+
+  .impactoTituloDiv {
+    margin: 0 auto;
+    margin-top: 8%;
+    width: 90%;
+    text-align: center;
+  }
+
+  .infoImpacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circulo {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    flex-direction: row;
+  }
+
+  #nuestrosProyectos {
+    background-color: var(--color-azul);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 1730px;
+    align-items: center;
+  }
+
+  .imgProyectos {
+    width: 50%;
+  }
+  .imgNuestrosProyectos {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .textoProyectosDiv {
+    width: 47%;
+    display: flex;
+    margin-left: 3%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tituloProyectos {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: var(--color-blanco);
+  }
+
+  .textoProyectos {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: var(--color-blanco);
+  }
+
+  .cardsProyectos {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2161px;
+    width: 100%;
+  }
+
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .textoProyectosCard {
+    background-repeat: no-repeat;
+    background-image: url(../assets/pictures/alcanceRegionalHome.jpg);
+    border: none !important;
+    border-radius: 0px !important;
+    width: 50% !important;
+    height: 200px;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .cards p {
+    font-size: 1rem;
+  }
+
+  .numeroCard {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .cardText {
+    width: 50%;
+    text-align: center;
+  }
+
+  #footerQueHacemos {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 252px;
+    background-image: url(../assets/bg/wave-haikei.svg);
+    background-size: cover;
+    top: 2951px;
+    align-items: flex-end;
+  }
+
+  /* quienes somos */
+  #somos-header {
+    width: 100%;
+    margin-top: 1%;
+    background-image: url(../assets/pictures/IMG_6414\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .somos-header-titular {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 106px;
+    margin-left: 5%;
+    justify-content: flex-start;
+  }
+  .somos-header-titular h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1;
+    color: var(--color-blanco);
+    margin-top: 50%;
+  }
+
+  .somos-header-textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 203px;
+    background-image: url(../assets/bg/wave-header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .quienesSomos1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .tituloDiv {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .tituloDiv h1 {
+    font-size: 1.5rem;
+  }
+
+  .divOperaciones {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+
+  .logoOperaciones {
+    width: 17%;
+    height: 15%;
+    margin-right: 2%;
+  }
+
+  #footerQuienesSomos {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 252px;
+    background-image: url(../assets/bg/wave-haikei.svg);
+    background-size: cover;
+    top: 2490px;
+    align-items: flex-end;
+  }
+
+  /* participar */
+
+  #participar-header {
+    margin-top: 1%;
+    background-image: url(../assets/pictures/headerParticipar.jpg);
+    background-position: bottom;
+    width: 100%;
+  }
+
+  .participar-header-titular {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 368px;
+    margin-left: 5%;
+    justify-content: center;
+  }
+
+  .participar-header-titular h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--color-blanco);
+    margin-top: 50%;
+  }
+
+  .participar-header-textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 466px;
+    top: 300px;
+    background-image: url(../assets/bg/wave-header.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+  }
+
+  #section-voluntariado {
+    width: 100%;
+  }
+
+  .voluntariado-como {
+    display: flex;
+    width: 90%;
+    height: 648px;
+    top: 781px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .voluntariado-textos {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 648px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--color-gris);
+    margin-left: 30px;
+  }
+
+  .voluntariado-textos h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1;
+    color: var(--color-azul);
+    text-align: center;
+  }
+
+  .voluntariado-img {
+    position: relative;
+    width: 100%;
+    height: 586px;
+  }
+
+  /* donar */
+
+  #donar-header {
+    margin-top: 1%;
+    background-image: url(../assets/pictures/donarHeader.jpg);
+    background-size: cover;
+  }
+
+  .donar-header-titular {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 390px;
+    margin-left: 5%;
+    justify-content: center;
+  }
+
+  .donar-header-titular h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 78px;
+    color: var(--color-blanco);
+    margin-top: 50%;
+  }
+
+  .donar-ahora {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 44px;
+    width: 70%;
+    height: 78px;
+    top: 933px;
+    background-color: var(--color-naranja);
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  /* home */
+  #home-header {
+    background-size: cover;
+  }
+  .garabato {
+    position: absolute;
+    width: 179px;
+    height: 28px;
+    left: 203px;
+    top: 1090px;
+    z-index: 10;
+  }
+
+  #footer {
+    top: 2190px;
+  }
+
+  /* que hacemos */
+
+  #impacto {
+    position: absolute;
+    top: 902px;
+  }
+
+  .circulo {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    flex-direction: row;
+  }
+
+  #nuestrosProyectos {
+    background-color: var(--color-azul);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 1813px;
+    align-items: center;
+  }
+
+  .cardsProyectos {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2206px;
+    width: 100%;
+  }
+
+  /* quienes somos */
+
+  #footerQuienesSomos {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 252px;
+    background-image: url(../assets/bg/wave-haikei.svg);
+    background-size: cover;
+    top: 2772px;
+    align-items: flex-end;
+  }
+
+  /* participar */
+
+  .voluntariado-como {
+    display: flex;
+    width: 100%;
+    height: 648px;
+    top: 781px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .voluntariado-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .imagenVoluntariado {
+    width: 100%;
+  }
+
+  .voluntariado-textos {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 648px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--color-gris);
+    margin-left: 0;
+  }
+
+  /* donar */
+
+  .donar-header-titular {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 390px;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .donar-header-titular h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 78px;
+    color: var(--color-blanco);
+    margin-top: 50%;
+    text-align: center;
   }
 }
