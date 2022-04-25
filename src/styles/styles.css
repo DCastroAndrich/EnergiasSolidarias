@@ -947,7 +947,7 @@ p {
   justify-content: center;
 }
 .cards {
-  width: 50%;
+  width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -959,25 +959,43 @@ p {
   flex-direction: row;
   justify-content: space-around;
 }
-.textoProyectosCard {
+.textoProyectosCard1 {
   background-repeat: no-repeat;
-  background-image: url(../assets/pictures/alcanceRegionalHome.jpg);
+  background-image: url(../assets/pictures/termotanqueColor.png);
   border: none !important;
   border-radius: 0px !important;
-  height: 14em;
+  height: 14rem;
   background-size: cover;
 }
-.textoProyectosCard p {
+.textoProyectosCard2 {
+  background-repeat: no-repeat;
+  background-image: url(../assets/pictures/cocinaColor.png);
+  border: none !important;
+  border-radius: 0px !important;
+  height: 14rem;
+  background-size: cover;
+}
+.textoProyectosCard3 {
+  background-repeat: no-repeat;
+  background-image: url(../assets/pictures/alumbradoColor.png);
+  border: none !important;
+  border-radius: 0px !important;
+  height: 14rem;
+  background-size: cover;
+}
+.imgCardText {
   font-style: normal;
   font-size: 16px;
   line-height: 22px;
   color: var(--color-blanco);
+  text-align: center;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .cardText {
   width: 50%;
 }
@@ -1729,7 +1747,7 @@ p {
   }
 
   .garabato {
-    width: 221px;
+    width: 199px;
     height: 28px;
     left: 222px;
     top: 1090px;
@@ -1742,7 +1760,7 @@ p {
 
   .section-titular2 {
     position: absolute;
-    width: 169px;
+    width: 137px;
     height: 134px;
     text-align: center;
   }
@@ -1755,7 +1773,7 @@ p {
   .section-donar {
     padding: 24px 51px;
     margin-left: 12px;
-    width: 148px;
+    width: 120px;
     height: 48px;
   }
 
@@ -1884,7 +1902,7 @@ p {
 
   .hacemos-header-titular {
     position: absolute;
-    width: 100%;
+    width: 59%;
     height: 126px;
     top: 11px;
   }
@@ -2020,9 +2038,29 @@ p {
     margin-bottom: 20px;
   }
 
-  .textoProyectosCard {
+  .textoProyectosCard1 {
     background-repeat: no-repeat;
-    background-image: url(../assets/pictures/alcanceRegionalHome.jpg);
+    background-image: url(../assets/pictures/termotanqueColor.png);
+    border: none !important;
+    border-radius: 0px !important;
+    width: 50% !important;
+    height: 200px;
+    background-size: cover;
+    text-align: center;
+  }
+  .textoProyectosCard2 {
+    background-repeat: no-repeat;
+    background-image: url(../assets/pictures/cocinaColor.png);
+    border: none !important;
+    border-radius: 0px !important;
+    width: 50% !important;
+    height: 200px;
+    background-size: cover;
+    text-align: center;
+  }
+  .textoProyectosCard3 {
+    background-repeat: no-repeat;
+    background-image: url(../assets/pictures/alumbradoColor.png);
     border: none !important;
     border-radius: 0px !important;
     width: 50% !important;
@@ -2265,7 +2303,7 @@ p {
     background-size: cover;
   }
   .garabato {
-    width: 179px;
+    width: 164px;
     height: 28px;
     left: 203px;
     top: 1090px;
