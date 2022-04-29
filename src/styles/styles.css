@@ -1098,6 +1098,7 @@ p {
 .textoOperaciones h3 {
   font-size: 1em;
   margin-bottom: 2%;
+  text-align: center;
 }
 .textoOperaciones p {
   font-size: 0.8em;
@@ -1861,7 +1862,7 @@ p {
 
   #footer {
     height: 210px;
-    top: 2144px;
+    top: 2183px;
   }
 
   .footer-copyright p {
@@ -1957,16 +1958,11 @@ p {
 
   #impacto {
     position: absolute;
-    top: 799px;
+    top: 860px;
   }
 
   #imgQueHacemos {
     display: none;
-  }
-
-  #impacto {
-    position: absolute;
-    top: 830px;
   }
 
   .impactoTituloDiv {
@@ -2179,7 +2175,7 @@ p {
   }
 
   #footerQuienesSomos {
-    top: 2490px;
+    top: 2555px;
   }
 
   /* participar */
@@ -2446,9 +2442,6 @@ p {
   }
 
   /* QUIENES SOMOS */
-  .textoOperaciones h3 {
-    text-align: center;
-  }
 
   #footerQuienesSomos {
     top: 2913px;
