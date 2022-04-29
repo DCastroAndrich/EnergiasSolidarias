@@ -2420,7 +2420,42 @@ p {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 360px) {
+  .section-pic3 {
+    top: 1096px;
+  }
+  .garabato {
+    left: 195px;
+  }
+  .home-section-ayudar {
+    top: 1091px;
+  }
+
+  .section5-titular h4 {
+    line-height: 1;
+  }
+
+  #footer {
+    top: 2239px;
+  }
+
+  /* QUE HACEMOS */
+
+  #footerQueHacemos {
+    top: 3252px;
+  }
+
+  /* QUIENES SOMOS */
+  .textoOperaciones h3 {
+    text-align: center;
+  }
+
+  #footerQuienesSomos {
+    top: 2913px;
+  }
+}
+
+@media (max-width: 320px) {
   /*home*/
 
   .flor-1 {
@@ -2479,7 +2514,7 @@ p {
     width: 100%;
   }
   .section2-titulos {
-    top: 943px;
+    top: 910px;
     width: 100%;
     left: 0;
   }
