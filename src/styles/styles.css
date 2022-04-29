@@ -2419,7 +2419,8 @@ p {
     text-align: center;
   }
 }
-@media (max-width: 320px) {
+
+@media (max-width: 380px) {
   /*home*/
 
   .flor-1 {
@@ -2478,7 +2479,7 @@ p {
     width: 100%;
   }
   .section2-titulos {
-    top: 910px;
+    top: 943px;
     width: 100%;
     left: 0;
   }
@@ -2600,7 +2601,4 @@ p {
     font-size: 2.6rem;
     line-height: 68px;
   }
-
-
-  
 }
