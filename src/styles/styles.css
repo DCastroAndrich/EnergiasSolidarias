@@ -15,6 +15,7 @@
 body {
   max-width: 100vw;
   height: auto;
+  background-color: var(--color-blanco);
 }
 main {
   position: absolute;
@@ -1930,7 +1931,7 @@ p {
   .hacemos-header-textos {
     position: absolute;
     width: 100%;
-    height: 303px;
+    height: 281px;
     top: 71px;
     background-image: url(../assets/bg/wave-header.svg);
     background-repeat: no-repeat;
@@ -2238,7 +2239,7 @@ p {
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 100%;
+    width: 97%;
     height: 648px;
     font-style: normal;
     font-weight: 400;
@@ -2246,6 +2247,7 @@ p {
     line-height: 1.5;
     color: var(--color-gris);
     margin-left: 0;
+    text-align: left;
   }
 
   .voluntariado-textos h4 {
